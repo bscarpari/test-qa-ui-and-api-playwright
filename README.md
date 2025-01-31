@@ -6,8 +6,6 @@ Este repositório contém dois testes práticos para a vaga de **QA Engineer**. 
 1. **Validação de fluxos de UI** com **Playwright**.
 2. **Interação e validação de APIs** com **Playwright** e **Node.js**.
 
-Você terá até **2 dias** para completar o teste.
-
 ## Requisitos Técnicos
 
 - **Node.js** >= 14.x
@@ -153,11 +151,6 @@ export default defineConfig({
 
 ---
 
-### Instruções de Entrega
-
-- O código deve ser entregue em um repositório Git (GitHub, GitLab ou outro).
-- Inclua um arquivo `README` detalhando como rodar o projeto e qualquer informação relevante.
-- Certifique-se de que todos os testes estejam passando.
-- Se possível, configure uma pipeline de CI/CD para rodar os testes automaticamente ao fazer push no repositório.
-
-Boa sorte! Se tiver dúvidas, entre em contato.
+### Instruções adicionais
+- [ ] `README` detalhando como rodar o projeto e qualquer informação relevante.
+- [ ] Pipeline de CI/CD para rodar os testes automaticamente ao fazer push no repositório.
