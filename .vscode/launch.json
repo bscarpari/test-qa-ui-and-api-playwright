@@ -1,0 +1,10 @@
+{
+  "configurations": [
+    {
+      "type": "msedge",
+      "name": "https://reqres.in/api/users?page=2",
+      "request": "launch",
+      "url": "https://reqres.in/api/users?page=2"
+    }
+  ]
+}
