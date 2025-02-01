@@ -15,6 +15,8 @@ Este repositório contém dois testes práticos para a vaga de **QA Engineer**. 
 
 ### Passos para instalação:
 
+#### Rodar localmente
+
 1. Clone este repositório:
 
    ```bash
@@ -31,7 +33,9 @@ Este repositório contém dois testes práticos para a vaga de **QA Engineer**. 
    npx playwright install
    ```
 
-3. Formatação do código:
+### Comandos úteis
+
+1. Formatação do código:
 
    ```bash
    # Formatar todos os arquivos
@@ -43,16 +47,34 @@ Este repositório contém dois testes práticos para a vaga de **QA Engineer**. 
 
    Note: O projeto usa Husky e lint-staged para garantir que todo código commitado esteja formatado.
 
-4. Para rodar os testes de UI:
+2. Para rodar **apenas** os testes de UI:
 
    ```bash
    npm run test:ui
    ```
 
-5. Para rodar os testes de API:
+3. Para rodar **apenas** os testes de API:
 
    ```bash
    npm run test:api
+   ```
+
+4. Para rodar **todos** os testes de uma só vez:
+
+   ```bash
+   npm run test:all
+   ```
+
+5. Para abrir o modo UI do Playwright para ajeitar testes de UI
+
+   ```bash
+   npm run debug:ui
+   ```
+
+6. Para abrir o modo de debug do Playwright para facilitar debugging geral
+
+   ```bash
+   npm run debug:all
    ```
 
 ### Estrutura do Projeto
@@ -87,19 +109,19 @@ As credenciais de login são fornecidas abaixo:
 
    - [x] Simule um fluxo de login com credenciais corretas.
    - [x] Valide se o usuário foi autenticado e redirecionado para a página principal.
-   - [ ] **Cenário adicional:** Simule tentativas de login com credenciais incorretas e valide se as mensagens de erro aparecem corretamente.
+   - [x] **Cenário adicional:** Simule tentativas de login com credenciais incorretas e valide se as mensagens de erro aparecem corretamente.
 
 2. **Adicionar e remover produtos ao carrinho:**
 
-   - [ ] Faça o login.
-   - [ ] Adicione três produtos da lista ao carrinho.
-   - [ ] Remova dois produtos.
-   - [ ] Valide se os produtos restantes no carrinho são os corretos.
-   - [ ] **Cenário adicional:** Valide se o contador do carrinho é atualizado corretamente à medida que os produtos são adicionados/removidos.
+   - [x] Faça o login.
+   - [x] Adicione três produtos da lista ao carrinho.
+   - [x] Remova dois produtos.
+   - [x] Valide se os produtos restantes no carrinho são os corretos.
+   - [x] **Cenário adicional:** Valide se o contador do carrinho é atualizado corretamente à medida que os produtos são adicionados/removidos.
 
 3. **Simulação de erro na finalização da compra:**
-   - [ ] Após adicionar produtos ao carrinho, tente finalizar a compra sem preencher os dados obrigatórios no checkout (nome, endereço, etc.).
-   - [ ] Valide se as mensagens de erro são exibidas e se o sistema bloqueia o usuário de finalizar a compra.
+   - [x] Após adicionar produtos ao carrinho, tente finalizar a compra sem preencher os dados obrigatórios no checkout (nome, endereço, etc.).
+   - [x] Valide se as mensagens de erro são exibidas e se o sistema bloqueia o usuário de finalizar a compra.
 
 ##### O que será avaliado:
 
@@ -154,4 +176,4 @@ Escreva testes para validar as respostas e o comportamento da API.
    - [x] Garanta que os testes de API e UI possam ser executados em paralelo para otimizar o tempo de execução. Utilize a configuração adequada do Playwright para rodar testes simultaneamente.
 
 3. **Pipeline de CI/CD:**
-   - [ ] Configure uma pipeline de integração contínua usando GitHub Actions (ou outra ferramenta de CI/CD) para garantir que o projeto seja automaticamente testado ao fazer um push no repositório. Isso não é obrigatório, mas será um diferencial.
+   - [x] Configure uma pipeline de integração contínua usando GitHub Actions (ou outra ferramenta de CI/CD) para garantir que o projeto seja automaticamente testado ao fazer um push no repositório. Isso não é obrigatório, mas será um diferencial.
