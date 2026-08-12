@@ -1,5 +1,9 @@
 # QA Challenge
 
+[![Playwright Tests](https://github.com/bscarpari/test-qa-ui-and-api-playwright/actions/workflows/playwright.yml/badge.svg?branch=main)](https://github.com/bscarpari/test-qa-ui-and-api-playwright/actions/workflows/playwright.yml)
+
+📊 **[Relatório HTML da última execução (main)](https://bscarpari.github.io/test-qa-ui-and-api-playwright/)**
+
 ## Introdução
 
 Este repositório contém dois testes práticos para a vaga de **QA Engineer**. O objetivo é validar habilidades de automação de testes com:
