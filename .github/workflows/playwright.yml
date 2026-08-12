@@ -49,6 +49,7 @@ jobs:
           echo "STANDARD_USER=standard_user" >> .env
           echo "STANDARD_PASSWORD=secret_sauce" >> .env
           echo "API_BASE_URL=https://reqres.in/api" >> .env
+          echo "API_KEY=${{ secrets.REQRES_API_KEY }}" >> .env
           echo "UI_BASE_URL=https://www.saucedemo.com" >> .env
           echo "HEADLESS=true" >> .env
           echo "WORKERS=2" >> .env

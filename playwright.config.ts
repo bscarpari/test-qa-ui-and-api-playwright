@@ -34,6 +34,9 @@ export default defineConfig({
       testDir: './tests/api',
       use: {
         baseURL: process.env.API_BASE_URL,
+        extraHTTPHeaders: {
+          'x-api-key': process.env.API_KEY || '',
+        },
       },
     },
   ],

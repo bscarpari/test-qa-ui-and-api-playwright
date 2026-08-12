@@ -20,6 +20,7 @@ test.describe('Environment Variables Validation', () => {
 
     // URLs
     expect(process.env.API_BASE_URL, 'API_BASE_URL is required').toBeDefined()
+    expect(process.env.API_KEY, 'API_KEY is required').toBeDefined()
     expect(process.env.UI_BASE_URL, 'UI_BASE_URL is required').toBeDefined()
 
     // Test config
